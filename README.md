@@ -1,22 +1,20 @@
 # DataExtractionProject
 
-Sveiki,
+hello,
 
-Norėčiau pasidalinti savo minčių procesu darant šitą projektą,
-visu pirma jog išvengčiau pirmo puslapio užkrovimo - sugeneravau url su skrydžio išvykimo diena, sugrįžimo diena, skrendančiu asmenų skaičiumi
-taip išvengiau bent 1 requesto per skrydžių kombinacija.
+Would like to share some thought process while doing this project,
+To start off to avoid first page load I decided to generate URL in project with flight outbound day, inbound day and number of persons (which is important to generate taxes). 
+by doing this, I avoided at least 1-page load for each flight combination.
 
-kadangi užduotis prašo išgauti visas round-trip kombinacijas, reiškia negaliu tiesiog pasirinkti visu skrydžių iš užkrauto url-source,
-reikia surasti konteinerius outbound-flights bei inbound-flights ir juos atskirai sudėti į sąrašus ir naudojant abu išgauti visu skrydžių kombinacijas
+Since homework is asking to get all possible flight combinations, means I cannot select all flight in loaded URL, first I need to find containers for outbound flights and inbound flights add them to lists, and using those lists I can generate fare flights
 
-antroje užduoties dalyje prašote išgauti taxes, kurie yra antrame skrydžio pirkimo formos etape.
-čia ir susidūriau su nesklandumais kadangi pasirinkau užduotį daryti su HtmlAgilityPack, jis neturi naršyklės variklio dėl to pasirinkti puslapyje skrydžių bei
-nusigauti į antra formos etapą buvo neįmanoma ( na bent nepavyko man rasti, tikrai gali būti yra būdas bet tiesiog nežinau), todėl tiesiog padariau HardCode išeitį
-nes pora kart rankiniu būdu pamėginęs supratau jog taxes yra pastovus per žmonių skaičių nepriklausomai nuo mokamos sumos.
+Second part of homework is asking to get taxes, which is in second section of flight purchase form.
+That caused me some trouble, because I decided to make this project with HtmlAgilityPack library, which doesn't have browser engine (just lack of experience on my part).
+Therefore, I could not select flights and go to next section (at least I didn't found a way, with HtmlAgilityPack, but I found a  way with selenium)
+but after few manual tests I saw that taxes is constant per person so i just hard coded it, but I don't think it's the best solution.
 
-nors mano manymu idealus sprendimas butu susirasti vieta kurioje mokesčiai yra aprašomi, prieš išgaunant skrydžius sugeneruoti formule mokesčių apskaičiavimui
-ir taip sutaupyti dideli skaičių requestu
+I think ideal solution for this would be before getting flights, extract taxes percent or constant with one or two request (to check is it right) and then code formula for it.
+That would save a lot of requests (because if you get taxes for each flight individually, that would at least double or triple the request number)
 
-pabaigai,
-jeigu daryčiau šita užduotį iš naujo rinkčiausi Selenium, jau buvo mintys kilusios perdaryti visa projektą. bet HtmlAgilityPack yra apie 4-5 kart greitesnis todėl palikau taip,
-bet mano manymu HtmlAgilityPack trūksta funkcionalumo tokiem projektam.
+conclusion,
+if I would make project like this again, I would definitely use Selenium, it has all functionality which I was missing and would make project more complete
