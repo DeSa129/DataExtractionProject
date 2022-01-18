@@ -1,0 +1,14 @@
+outbound_departure,outbound_arrival,inbound_departure,inbound_arrival,total_price,total_taxes
+"NBO;MBA; Fri 28, Jan  6:00am ","NBO;MBA; Fri 28, Jan  7:10am ","MBA;NBO; Fri 04, Feb  7:30am ","MBA;NBO; Fri 04, Feb  8:40am ",9080;KES,1200
+"NBO;MBA; Fri 28, Jan  6:00am ","NBO;MBA; Fri 28, Jan  7:10am ","MBA;NBO; Fri 04, Feb  12:00pm ","MBA;NBO; Fri 04, Feb  1:10pm ",9080;KES,1200
+"NBO;MBA; Fri 28, Jan  6:00am ","NBO;MBA; Fri 28, Jan  7:10am ","MBA;NBO; Fri 04, Feb  8:20pm ","MBA;NBO; Fri 04, Feb  9:30pm ",9480;KES,1200
+"NBO;MBA; Fri 28, Jan  8:00am ","NBO;MBA; Fri 28, Jan  9:10am ","MBA;NBO; Fri 04, Feb  7:30am ","MBA;NBO; Fri 04, Feb  8:40am ",9480;KES,1200
+"NBO;MBA; Fri 28, Jan  8:00am ","NBO;MBA; Fri 28, Jan  9:10am ","MBA;NBO; Fri 04, Feb  12:00pm ","MBA;NBO; Fri 04, Feb  1:10pm ",9480;KES,1200
+"NBO;MBA; Fri 28, Jan  8:00am ","NBO;MBA; Fri 28, Jan  9:10am ","MBA;NBO; Fri 04, Feb  8:20pm ","MBA;NBO; Fri 04, Feb  9:30pm ",9880;KES,1200
+"NBO;MBA; Fri 28, Jan  6:40pm ","NBO;MBA; Fri 28, Jan  7:50pm ","MBA;NBO; Fri 04, Feb  7:30am ","MBA;NBO; Fri 04, Feb  8:40am ",9480;KES,1200
+"NBO;MBA; Fri 28, Jan  6:40pm ","NBO;MBA; Fri 28, Jan  7:50pm ","MBA;NBO; Fri 04, Feb  12:00pm ","MBA;NBO; Fri 04, Feb  1:10pm ",9480;KES,1200
+"NBO;MBA; Fri 28, Jan  6:40pm ","NBO;MBA; Fri 28, Jan  7:50pm ","MBA;NBO; Fri 04, Feb  8:20pm ","MBA;NBO; Fri 04, Feb  9:30pm ",9880;KES,1200
+"NBO;MBA; Mon 07, Feb  6:00am ","NBO;MBA; Mon 07, Feb  7:10am ","MBA;NBO; Mon 14, Feb  7:30am ","MBA;NBO; Mon 14, Feb  8:40am ",9080;KES,1200
+"NBO;MBA; Mon 07, Feb  6:00am ","NBO;MBA; Mon 07, Feb  7:10am ","MBA;NBO; Mon 14, Feb  8:20pm ","MBA;NBO; Mon 14, Feb  9:30pm ",9080;KES,1200
+"NBO;MBA; Mon 07, Feb  6:40pm ","NBO;MBA; Mon 07, Feb  7:50pm ","MBA;NBO; Mon 14, Feb  7:30am ","MBA;NBO; Mon 14, Feb  8:40am ",9080;KES,1200
+"NBO;MBA; Mon 07, Feb  6:40pm ","NBO;MBA; Mon 07, Feb  7:50pm ","MBA;NBO; Mon 14, Feb  8:20pm ","MBA;NBO; Mon 14, Feb  9:30pm ",9080;KES,1200
